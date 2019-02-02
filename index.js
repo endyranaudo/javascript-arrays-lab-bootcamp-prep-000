@@ -25,7 +25,7 @@ function appendKitten(name){
 
 function preAppendKitten(name){
   let newKitten = (name)
-  newArr = 
+  let newArr = kittens.slice(0)
   return kittens.slice(0, newKitten)
 }
 
