@@ -23,8 +23,11 @@ function appendKitten(name){
   return kittens.concat(newKitten)
 }
 
-function preAppendKitten(name){
+function preAppendKitten(){
   let newArr = kittens.slice(0,3);
-  newArr.unshift(name);
+  newArr.unshift();
   return newArr;
 }
+ function removeLastKitten(){
+   
+ }
