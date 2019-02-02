@@ -28,6 +28,7 @@ function preAppendKitten(){
   newArr.unshift();
   return newArr;
 }
+
  function removeLastKitten(){
    let pop = kittens.pop()
    return pop;
