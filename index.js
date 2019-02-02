@@ -23,8 +23,8 @@ function appendKitten(name){
   return kittens.concat(newKitten)
 }
 
-function preAppendKitten(name){
-  let newKitten = (["Alfred"])
+function preAppendKitten(){
+  let newKitten = (["Arnold"])
   return newKitten.concat(kittens)
 }
 
