@@ -25,5 +25,5 @@ function appendKitten(name){
 
 function preAppendKitten(){
   let newKitten = ["Arnold"]
-  return kittens.slice(0, 1, newKitten)
+  return kittens.slice(0, 0, newKitten)
 }
