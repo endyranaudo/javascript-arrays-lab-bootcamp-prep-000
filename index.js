@@ -24,9 +24,8 @@ function appendKitten(name){
 }
 
 function preAppendKitten(){
-  let newArr = kittens.slice(0,3);
-  newArr.unshift();
-  return newArr;
+  let newKitten = (name)
+  return newKitten.concat(kittens)
 }
 
  function removeLastKitten(){
