@@ -18,9 +18,9 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
 
-function appendKitten(name){
-  let newKitten = (name)
-  return kittens.concat(newKitten)
+function preAppendKitten(name){
+  let newKitten = [(name)];
+  return newKitten.concat(kittens);
 }
 
 function preAppendKitten(name){
