@@ -18,7 +18,7 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift();
 }
 
-function appendKitten(name){
+function appendKitten(){
   let newKitten = ["Broom"]
   let newArr = kittens.concat(newKitten)
 }
