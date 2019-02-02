@@ -22,3 +22,8 @@ function appendKitten(){
   let newKitten = ["Broom"]
   return kittens.concat(newKitten)
 }
+
+function preAppendKitten(){
+  let newKitten = ["Arnold"]
+  return kittens.slice(newKitten)
+}
