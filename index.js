@@ -24,6 +24,6 @@ function appendKitten(name){
 }
 
 function preAppendKitten(){
-  let newKitten = kittens.["Arnold"]
+  let newKitten = kittens.shift("Arnold")
   return newKitten
 }
