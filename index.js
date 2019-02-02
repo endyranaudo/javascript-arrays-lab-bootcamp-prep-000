@@ -28,4 +28,8 @@ function prependKitten(name){
   return newKitten.concat(kittens)
 }
 
+function removeLastKitten(){
+  let newKitten = [(name)];
+  return newKitten.slice(0,1)
+}
 
