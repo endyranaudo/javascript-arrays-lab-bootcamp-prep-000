@@ -23,7 +23,7 @@ function appendKitten(name){
   return kittens.concat(newKitten)
 }
 
-function preAppendKitten(){
-  let newKitten = kittens.shift("Arnold")
-  return newKitten
+function preAppendKitten(name){
+  let newKitten = (name)
+  return newKitten.splice(0,0, newKitten)
 }
