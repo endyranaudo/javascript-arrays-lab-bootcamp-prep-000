@@ -30,6 +30,6 @@ function prependKitten(name){
 
 function removeLastKitten(){
   let newKitten = [(name)];
-  return newKitten.slice(0,1)
+  return newKitten.slice(0,2)
 }
 
