@@ -24,7 +24,8 @@ function appendKitten(name){
 }
 
 function preAppendKitten(name){
-  let newKitten = [(name)];
+  let emptyArr = []
+  let newKitten = emptyArr.push(name);
   return newKitten.concat(kittens);
 }
 
