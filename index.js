@@ -29,5 +29,6 @@ function preAppendKitten(){
   return newArr;
 }
  function removeLastKitten(){
-   
+   let pop = kittens.pop()
+   return pop;
  }
