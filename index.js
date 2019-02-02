@@ -24,11 +24,7 @@ function appendKitten(name){
 }
 
 function preAppendKitten(name){
-  let newKitten = (name)
+  let newKitten = ([name])
   return newKitten.concat(kittens)
 }
 
- function removeLastKitten(){
-   let pop = kittens.pop()
-   return pop;
- }
